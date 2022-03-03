@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Sponsor or Partner Category'
+vid: sponsor_or_partner_category
+description: 'Use this to categorize Sponsors or Partners.'
+weight: 0

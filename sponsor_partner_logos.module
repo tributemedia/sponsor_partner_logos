@@ -1,0 +1,23 @@
+<?php
+
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function sponsor_partner_logos_views_pre_render(ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'sponsor_partner_logos')) {
+    $view->element['#attached']['library'][] = 'sponsor_partner_logos/sponsor-views';
+  }
+}
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function sponsor_partner_logos_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  
+  if ($node->getType() == 'sponsors_partners') {
+    $variables['#attached']['library'][] = 'sponsor_partner_logos/sponsor-node';
+  }
+}

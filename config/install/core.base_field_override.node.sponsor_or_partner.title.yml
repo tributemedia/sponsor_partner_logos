@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsor_or_partner
+id: node.sponsor_or_partner.title
+field_name: title
+entity_type: node
+bundle: sponsor_or_partner
+label: 'Sponsor or Partner Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

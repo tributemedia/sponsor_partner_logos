@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sponsor_or_partner.field_category
+    - field.field.node.sponsor_or_partner.field_partner_image
+    - field.field.node.sponsor_or_partner.field_sponsor_website
+    - node.type.sponsor_or_partner
+  module:
+    - user
+id: node.sponsor_or_partner.teaser
+targetEntityType: node
+bundle: sponsor_or_partner
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_category: true
+  field_partner_image: true
+  field_sponsor_website: true

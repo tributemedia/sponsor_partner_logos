@@ -1,0 +1,8 @@
+sponsor-views:
+  css:
+    component:
+      css/sponsor-views.css: {}
+sponsor-node:
+  css:
+    component:
+      css/sponsor-node.css: {}

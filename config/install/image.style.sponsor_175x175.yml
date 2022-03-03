@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_175x175
+label: 'Sponsor - 175x175'
+effects:
+  78eea579-91f7-4e49-b438-64dda0b0df7e:
+    uuid: 78eea579-91f7-4e49-b438-64dda0b0df7e
+    id: image_scale
+    weight: 2
+    data:
+      width: 175
+      height: 175
+      upscale: false

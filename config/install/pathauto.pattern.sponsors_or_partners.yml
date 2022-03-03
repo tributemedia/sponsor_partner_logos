@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: sponsors_or_partners
+label: 'Sponsors or Partners'
+type: 'canonical_entities:node'
+pattern: 'sponsors/[node:title]'
+selection_criteria:
+  40163511-f91f-4eec-89f5-8423f1d1a31e:
+    id: node_type
+    bundles:
+      sponsor_or_partner: sponsor_or_partner
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 40163511-f91f-4eec-89f5-8423f1d1a31e
+selection_logic: and
+weight: -5
+relationships: {  }

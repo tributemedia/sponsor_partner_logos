@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Sponsor or Partner'
+type: sponsor_or_partner
+description: 'Use this to add logos to your sponsor or partner logo carousel, they will be automatically added to your carousel once created.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

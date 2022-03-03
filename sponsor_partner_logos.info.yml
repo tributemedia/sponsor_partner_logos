@@ -1,0 +1,28 @@
+name: 'Sponsor/Partner Logos'
+description: 'Provides configuration and settings to create and display Sponsor or Partner logos in various layouts.'
+type: module
+package: Custom
+core_version_requirement: '^8.9 || ^9'
+dependencies:
+  - 'adv_block_class:adv_block_class'
+  - 'context:context'
+  - 'drupal:block'
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:image'
+  - 'drupal:link'
+  - 'drupal:menu_ui'
+  - 'drupal:node'
+  - 'drupal:path'
+  - 'drupal:system'
+  - 'drupal:taxonomy'
+  - 'drupal:user'
+  - 'drupal:views'
+  - 'field_group:field_group'
+  - 'image_effects:image_effects'
+  - 'pathauto:pathauto'
+  - 'slick:slick'
+  - 'slick_views:slick_views'
+  - 'sponsor_partner_logos:sponsor_partner_logos'
+  - 'svg_image:svg_image'
+version: 2.0.0

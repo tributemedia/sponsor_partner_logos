@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_125x125
+label: 'Sponsor - 125x125'
+effects:
+  78eea579-91f7-4e49-b438-64dda0b0df7e:
+    uuid: 78eea579-91f7-4e49-b438-64dda0b0df7e
+    id: image_scale
+    weight: 2
+    data:
+      width: 125
+      height: 125
+      upscale: false
