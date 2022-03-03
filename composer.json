@@ -1,0 +1,12 @@
+{
+    "name": "tributemedia/sponsor_partner_logos",
+    "description": "Drupal 9 module provides configuration and settings to create and display Sponsor or Partner logos in various layouts.",
+    "type": "drupal-module",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Tributemedia\\SponsorPartnerLogos\\": "src/"
+        }
+    },
+    "require": {}
+}
