@@ -1,9 +1,9 @@
 langcode: en
 status: true
 dependencies: {  }
-id: logo_slide_show
-name: logo_slide_show
-label: 'Logo Slide Show'
+id: sb_slide_show
+name: sb_slide_show
+label: 'SB Slide Show'
 weight: 0
 group: ''
 skin: ''
