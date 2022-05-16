@@ -26,3 +26,4 @@ INSTALATION
 -----------
 
 * Install using *composer require tributemedia/sponsor_partner_logos*
+* See install instructions for [Slick](https://www.drupal.org/project/slick) for required libraries and how to install them.
