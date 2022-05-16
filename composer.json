@@ -8,5 +8,8 @@
             "Tributemedia\\SponsorPartnerLogos\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "drupal/slick": "^2.5",
+        "drupal/slick_views": "^2.6"
+    }
 }
