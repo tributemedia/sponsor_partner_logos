@@ -2,7 +2,7 @@ name: 'Sponsor/Partner Logos'
 description: 'Provides configuration and settings to create and display Sponsor or Partner logos in various layouts.'
 type: module
 package: Custom
-core_version_requirement: '^8.9 || ^9'
+core_version_requirement: '^8.9 || ^9 || ^10'
 dependencies:
   - 'adv_block_class:adv_block_class'
   - 'context:context'
@@ -25,4 +25,4 @@ dependencies:
   - 'slick_views:slick_views'
   - 'sponsor_partner_logos:sponsor_partner_logos'
   - 'svg_image:svg_image'
-version: 2.0.0
+version: 2.1.0
